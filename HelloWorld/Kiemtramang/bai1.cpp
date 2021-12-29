@@ -8,7 +8,7 @@ void input(int a[], int &n)
         cin >> a[i];
     }
 }
-void dele(int a[], int n, int &x)
+void dele(int a[], int &n, int &x)
 {
     for (int i = 0; i < n; i++)
     {
