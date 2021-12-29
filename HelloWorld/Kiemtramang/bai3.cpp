@@ -21,7 +21,7 @@ int main()
         }
     } while (n <= 0);
     input(a, n);
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n - 1; i++)
     {
         if (a[i] > a[i+1])
         {
