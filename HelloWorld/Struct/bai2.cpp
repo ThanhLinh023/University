@@ -32,9 +32,12 @@ int main()
     cout << "\n";
     input(y);
     output(y);
+    int k1(0), k2(0);
+    k1 = y.hd - x.hd;
+    k2 = y.td - x.td;
     cout << "\n";
     cout << "Khoang cach giua 2 diem " << "(" << x.hd << "; " << x.td << ")" << " va " << "(" << y.hd << "; " << y.td << ")" << " la : ";
-    cout << sqrt(abs((y.hd * y.hd + y.td * y.td) - (x.hd * x.hd + x.td * x.td))) << "\n";
+    cout << sqrt((k1 * k1) + (k2 * k2)) << "\n";
     cout << "Nhap so luong diem : ";
     cin >> n;
     for (int i = 0; i < n; i++)
