@@ -185,6 +185,7 @@ public:
             return true;
         if (dad->getType() == 3 && mom->getType() == 1 || dad->getType() == 3 && mom->getType() == 2 || dad->getType() == 3 && mom->getType() == 3)
             return true;
+        return false;
     }
 };
 class O : public Blood
@@ -225,6 +226,7 @@ public:
             return true;
         if (dad->getType() == 4 && mom->getType() == 1 || dad->getType() == 4 && mom->getType() == 2 || dad->getType() == 4 && mom->getType() == 4)
             return true;
+        return false;
     }
 };
 int main()
