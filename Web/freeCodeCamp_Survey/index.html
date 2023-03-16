@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>freeCodeCamp Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>freeCodeCamp Survey Form</h1>
+    <p>Thank you for taking the time to help us improve the platform</p>
+
+    <form id="survey-form" action="freecodecamp.org">
+        <fieldset>
+            <label for="name">Name <input id="name" type="text" placeholder="Enter your name" required></label>
+            <label for="email">Email <input id="email" type="email" placeholder="Enter your email" required></label>
+            <label for="age">Age <small>(optional)</small> <input id="age" type="number" placeholder="Age" min="10" max="99"
+                    required></label>
+            <label for="role">Which option best describes your current role?</label>
+            <select id="role" title="Please select an item in the list">
+                <option selected disabled>Select current role</option>
+                <option>Student</option>
+                <option>Full Time Job</option>
+                <option>Full Time Learner</option>
+                <option>Prefer not to say</option>
+                <option>Other</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <figcaption>Would you recommend freeCodeCamp to a friend?</figcaption>
+            <label><input name="choose" type="radio">Definitely</label>
+            <label><input name="choose" type="radio">Maybe</label>
+            <label><input name="choose" type="radio">Not sure</label>
+        </fieldset>
+
+        <fieldset>
+            <label for="feature">What is your favorite feature of freeCodeCamp?</label>
+            <select id="feature" title="Please select an item in the list">
+                <option selected disabled>Select an option</option>
+                <option>Challenges</option>
+                <option>Projects</option>
+                <option>Community</option>
+                <option>Open Source</option>
+            </select>
+            <label id="improved">What would you like to see improved? <small>(Check all that apply)</small></label>
+            <label for="fe"><input id="fe" value="fe" type="checkbox"> Front-end Projects</label>
+            <label for="be"><input id="be" value="be" type="checkbox"> Back-end Projects</label>
+            <label for="dv"><input id="dv" value="dv" type="checkbox"> Data Visualization</label>
+            <label for="challenges"><input id="chanlenges" value="challenges" type="checkbox"> Challenges</label>
+            <label for="osc"><input id="osc" value="osc" type="checkbox"> Open Source Community</label>
+            <label for="ghr"><input id="ghr" value="ghr" type="checkbox"> Gitter Help Rooms</label>
+            <label for="vid"><input id="vid" value="vid" type="checkbox"> Videos</label>
+            <label for="cm"><input id="cm" value="cm" type="checkbox"> City Meetups</label>
+            <label for="wiki"><input id="wiki" value="wiki" type="checkbox"> Wiki</label>
+            <label for="forum"><input id="forum" value="forum" type="checkbox"> Forum</label>
+            <label for="ac"><input id="ac" value="ac" type="checkbox"> Additional Courses</label>
+            <label for="cmt-sgt">Any comments or suggestions?<textarea id="cmt-sgt" placeholder="Enter your comment here..."></textarea></label>
+        </fieldset>
+        <input type="submit" id="submit">
+    </form>
+</body>
+
+</html>
