@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.main {
+    background-color: #eee;
+    margin: 30px 10px;
+    border-radius: 5px;
+}
+h1, p, h2, footer {
+    text-align: center;
+}
+h1 {
+    font-weight: 850px;
+    font-size: 40px;
+    padding: 60px 0 20px 0;
+}
+.image-detail {
+    margin: 16px;
+    padding: 0 225px;
+    background-color: white;
+}
+.timelife {
+    margin: 30px;
+    padding-left: 450px;
+    padding-bottom: 10px;
+}
+h2 {
+    padding: 60px 550px 30px;
+    font-size: 20px;
+    color: #333;
+}
+.mark {
+    padding: 0 400px 20px 0;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+}
+.image-title {
+    padding: 18px 26px;
+    font-weight: 100;
+}
+.some {
+    padding: 0 465px 20px;
+    color: #333;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+.author {
+    color: #333;
+    letter-spacing: 0.3px;
+    text-align: left;
+    padding: 0 465px 0 465px;
+}
+footer {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-size: 18px;
+    color: #333;
+    display: block;
+}
+a {
+    color: #74638f;
+}
