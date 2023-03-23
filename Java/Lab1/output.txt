@@ -1,0 +1,8 @@
+Average - Max - Min Temperature of day 1: 119.96 - 78.30 - 67.00
+Average - Max - Min Temperature of day 2: 120.71 - 78.70 - 67.20
+Average - Max - Min Temperature of day 3: 120.17 - 78.30 - 67.00
+Average - Max - Min Temperature of day 4: 120.74 - 78.70 - 67.10
+Average - Max - Min Temperature of day 5: 119.44 - 78.00 - 65.00
+Average - Max - Min Temperature of day 6: 120.00 - 77.70 - 67.30
+Average - Max - Min Temperature of day 7: 120.71 - 78.70 - 67.20
+Average - Max - Min Temperature of all days: 70.15 - 78.70 - 65.00
