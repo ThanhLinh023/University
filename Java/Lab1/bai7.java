@@ -56,7 +56,7 @@ public class bai7 {
                     avgTempPerDay[i] += temperature[i][j];
                     sumTemp += temperature[i][j];
                 }
-                avgTempPerDay[i] /= 7;
+                avgTempPerDay[i] /= 12;
             }
             File output = new File("output.txt");
             FileWriter out = new FileWriter("output.txt", true);
