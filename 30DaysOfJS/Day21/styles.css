@@ -1,0 +1,36 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    padding-left: 21.2em;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    padding: 1em 0 1em 1.5em;
+    margin-bottom: 0.1em;
+    width: 50em;
+}
+h1 {
+    padding-left: 5em;
+}
+h2 {
+    padding-left: 13em;
+    font-weight: 250;
+}
+a {
+    color: black
+}
+#datetime {
+    background-color: green;
+    width: 10em;
+    height: 2em;
+    margin-left: 23em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+}
+b {
+    font-size: 3em;
+}
