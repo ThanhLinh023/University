@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard keycodes</title>
+    <style>
+        * {
+            font-family:Verdana, Geneva, Tahoma, sans-serif
+        }
+        .showInfo, .showKey {
+            top: 35%;
+            left: 25%;
+            position: absolute;
+            box-shadow: 1px 1px 2px 2px rgb(157, 155, 155);
+            width: 800px;
+            height: 150px;
+            text-align: center;
+        }
+        p {
+            font-size: 50px;
+            font-weight: 600;
+        }
+        .showKey {
+            margin-top: 12em;
+            width: 135px;
+            height: 165px;
+            border-radius: 5px;
+            left: 45%;
+        }
+        .key {
+            color: #21bf73;
+        }
+    </style>
+</head>
+<body>
+    <div class="showInfo">
+        <p class="keyName">Press any keyboard key</p>
+    </div>
+    <div class="showKey">
+        <p class="key"></p>
+    </div>
+    <script src="./keyboardCode.js"></script>
+</body>
+</html>
