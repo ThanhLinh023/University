@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: beige;
+}
+header {
+    position: relative;
+    border: solid black;
+    padding: 5px;
+    top: 1px;
+}
+#uniName {
+    position: absolute;
+    left: 160px;
+    bottom: 50px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    padding: 2px 0 0 0;
+}
+button {
+    background-color: rgb(23, 83, 27);
+    font-size: 20px;
+    color: white;
+}
+button:hover {
+    opacity: 0.9;
+}
+aside {
+    float: right;
+    width: 20%;
+    border: ridge red;
+    background-color: rgb(65, 190, 148);
+    padding: 20px;
+    margin: 30px 10px 0 0;
+    text-align: center;
+    font-size: 20px;
+}
+.two_blocks {
+    float: left;
+    border: ridge blue;
+    width: 75%;
+    margin: 30px 0 0 0;
+}
+.first, .second {
+    text-align: center;
+    border: ridge red;
+    margin: 30px 25px 0;
+    height: auto;
+    font-size: 20px;
+    padding: 20px;
+}
+.second {
+    margin-bottom: 30px;
+}
+#faculty {
+    left: 90%;
+    padding-left: 700px;
+}
+footer {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    top: 83%;
+    border-top: ridge green;
+}

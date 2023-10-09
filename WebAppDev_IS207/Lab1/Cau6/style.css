@@ -1,0 +1,26 @@
+table, td {
+    border: solid black;
+    border-collapse: collapse;
+}
+form {
+    background-color: #ffedca;
+    position: absolute;
+    width: 500px;
+    height: 340px;
+}
+textarea {
+    width: 200px;
+    height: 70px;
+}
+td[colspan="2"] {
+    text-align: center;
+}
+td {
+    color: blue;
+}
+select {
+    width: 100px;
+}
+table {
+    margin-left: 10px;
+}

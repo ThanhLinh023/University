@@ -1,0 +1,19 @@
+button {
+    border-radius: 10px;
+    margin-left: 40px;
+}
+p {
+    color: #8a2be2;
+    padding-left: 100px;
+}
+hr {
+    background-color: #0000ff;
+}
+input {
+    margin-left: 40px;
+}
+form {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
