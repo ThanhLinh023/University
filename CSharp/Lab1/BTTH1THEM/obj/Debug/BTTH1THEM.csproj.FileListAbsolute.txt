@@ -1,0 +1,7 @@
+C:\University\CSharp\Lab1\BTTH1THEM\bin\Debug\BTTH1THEM.exe.config
+C:\University\CSharp\Lab1\BTTH1THEM\bin\Debug\BTTH1THEM.exe
+C:\University\CSharp\Lab1\BTTH1THEM\bin\Debug\BTTH1THEM.pdb
+C:\University\CSharp\Lab1\BTTH1THEM\obj\Debug\BTTH1THEM.csproj.AssemblyReference.cache
+C:\University\CSharp\Lab1\BTTH1THEM\obj\Debug\BTTH1THEM.csproj.CoreCompileInputs.cache
+C:\University\CSharp\Lab1\BTTH1THEM\obj\Debug\BTTH1THEM.exe
+C:\University\CSharp\Lab1\BTTH1THEM\obj\Debug\BTTH1THEM.pdb
