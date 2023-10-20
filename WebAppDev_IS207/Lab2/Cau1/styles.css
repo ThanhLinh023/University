@@ -1,0 +1,10 @@
+table, tr, td {
+    border: solid blue;
+    background-color: #fecd92;
+}
+td[colspan="2"] {
+    text-align: center;
+}
+button {
+    border-radius: 10px;
+}

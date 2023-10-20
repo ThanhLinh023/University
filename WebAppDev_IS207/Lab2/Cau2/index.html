@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Menu</title>
+</head>
+<body>
+    <table>
+       <tr>
+            <td colspan="3">THỰC ĐƠN</td>
+       </tr>
+        <tr>
+            <td>Thức ăn</td>
+            <td>Nước uống</td>
+            <td>Thời điểm</td>
+        </tr>
+        <tr>
+            <td>
+                <select id="food" style="height: 130px;" multiple>
+                    <option>Bún bò</option>
+                    <option>Hủ tiếu</option>
+                    <option>Bánh canh</option>
+                    <option>Phở bò</option>
+                    <option>Nuôi</option>
+                    <option>Bánh mì thịt</option>
+                    <option>Bánh cuốn</option>
+                </select>
+            </td>
+            <td>
+                <select id="drink" style="height: 130px;" multiple>
+                    <option>Cà phê đá</option>
+                    <option>Cà phê sữa đá</option>
+                    <option>Chanh dây</option>
+                    <option>Chanh muối</option>
+                    <option>Xí muội</option>
+                    <option>Sữa tươi</option>
+                    <option>Cam vắt</option>
+                </select>
+            </td>
+            <td style="width: 200px;">
+                <input id="day" type="radio" name="time" value="day">Ban ngày
+                <br>
+                <input id="night" type="radio" name="time" value="night">Ban đêm
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <p>Tổng tiền</p>
+            </td>
+            <td>
+                <p id="total_money">0</p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <button id="btn">Tính tiền</button>
+            </td>
+        </tr>
+    </table>
+    <script src="index.js"></script>
+</body>
+</html>
