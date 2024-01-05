@@ -1,0 +1,7 @@
+C:\University\CSharp\Lab3\BTTH3\bin\Debug\BTTH3.exe.config
+C:\University\CSharp\Lab3\BTTH3\bin\Debug\BTTH3.exe
+C:\University\CSharp\Lab3\BTTH3\bin\Debug\BTTH3.pdb
+C:\University\CSharp\Lab3\BTTH3\obj\Debug\BTTH3.csproj.AssemblyReference.cache
+C:\University\CSharp\Lab3\BTTH3\obj\Debug\BTTH3.csproj.CoreCompileInputs.cache
+C:\University\CSharp\Lab3\BTTH3\obj\Debug\BTTH3.exe
+C:\University\CSharp\Lab3\BTTH3\obj\Debug\BTTH3.pdb
