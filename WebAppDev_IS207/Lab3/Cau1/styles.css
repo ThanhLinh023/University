@@ -1,0 +1,15 @@
+h1 {
+    color: blue;
+    font: bold;
+}
+table, tr, td {
+    border: solid #c740ed;
+    background-color: #c99998;
+    border-collapse: collapse;
+}
+td[colspan="2"] {
+    text-align: center;
+}
+button {
+    border-radius: 10px;
+}

@@ -1,0 +1,10 @@
+table, tr, td {
+    border: ridge black;
+    border-collapse: collapse;
+}
+td[colspan="2"] {
+    text-align: center;
+}
+button {
+    border-radius: 5px;
+}

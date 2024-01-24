@@ -1,0 +1,11 @@
+h1 {
+    color: blue;
+    font: bold;
+}
+table, tr, td {
+    border: solid ;
+    border-collapse: collapse;
+}
+button {
+    border-radius: 10px;
+}
