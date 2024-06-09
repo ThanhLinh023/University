@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Quản lý nhân viên"
+        android:textSize="40sp"
+        android:background="#008000"
+        android:textColor="#FFFFFFFF"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/manv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Mã NV: "
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"></TextView>
+    <EditText
+        android:id="@+id/manv_input"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/manv"
+        app:layout_constraintStart_toEndOf="@id/manv"
+        app:layout_constraintEnd_toEndOf="parent"></EditText>
+    <TextView
+        android:id="@+id/tennv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Tên NV: "
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/manv"></TextView>
+    <EditText
+        android:id="@+id/ten_input"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/tennv"
+        app:layout_constraintStart_toEndOf="@id/tennv"
+        app:layout_constraintEnd_toEndOf="parent"></EditText>
+    <TextView
+        android:id="@+id/loainv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Loại NV: "
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tennv"></TextView>
+    <RadioGroup
+        android:id="@+id/grp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toEndOf="@+id/loainv"
+        app:layout_constraintTop_toBottomOf="@+id/ten_input">
+
+        <RadioButton
+            android:id="@+id/chinhthuc"
+            android:layout_width="148dp"
+            android:layout_height="match_parent"
+            android:text="Chính thức" />
+
+        <RadioButton
+            android:id="@+id/thoivu"
+            android:layout_width="149dp"
+            android:layout_height="match_parent"
+            android:text="Thời vụ"
+            app:layout_constraintStart_toEndOf="@+id/chinhthuc" />
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Nhập NV"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@id/grp"
+        app:layout_constraintStart_toStartOf="@id/grp"
+        app:layout_constraintEnd_toEndOf="@id/grp"></Button>
+    <TextView
+        android:id="@+id/div"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="  "
+        android:background="#008000"
+        android:textColor="#FFFFFFFF"
+        app:layout_constraintTop_toBottomOf="@+id/btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"></TextView>
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/div"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"></ListView>
+</androidx.constraintlayout.widget.ConstraintLayout>
